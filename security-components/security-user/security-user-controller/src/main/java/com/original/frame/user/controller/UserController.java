@@ -3,6 +3,7 @@ package com.original.frame.user.controller;
 import com.original.frame.core.Response;
 import com.original.frame.user.api.FrameUserService;
 import com.original.frame.user.vo.UserVO;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,7 +14,7 @@ public class UserController {
 
     private final FrameUserService frameUserService;
 
-    public UserController(FrameUserService frameUserService) {
+    public UserController(@Qualifier("frameUserServiceImpl") FrameUserService frameUserService) {
         this.frameUserService = frameUserService;
     }
 

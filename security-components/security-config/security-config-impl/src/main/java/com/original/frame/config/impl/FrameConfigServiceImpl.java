@@ -5,9 +5,9 @@ import com.original.frame.config.entity.FrameConfig;
 import com.original.frame.config.repository.FrameConfigRepository;
 import com.original.frame.config.vo.ConfigVO;
 import org.springframework.beans.BeanUtils;
-import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RestController;
 
-@Component
+@RestController
 public class FrameConfigServiceImpl implements FrameConfigService {
 
     private final FrameConfigRepository frameConfigRepository;

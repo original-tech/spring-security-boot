@@ -18,24 +18,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-openfeign-core</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>feign-form-spring</artifactId>
-                    <groupId>io.github.openfeign.form</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>spring-boot-autoconfigure</artifactId>
-                    <groupId>org.springframework.boot</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>spring-boot-starter-aop</artifactId>
-                    <groupId>org.springframework.boot</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>spring-cloud-netflix-ribbon</artifactId>
-                    <groupId>org.springframework.cloud</groupId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
