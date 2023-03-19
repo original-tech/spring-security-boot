@@ -16,6 +16,19 @@
     <dependencies>
         <dependency>
             <groupId>com.original.frame</groupId>
+            <artifactId>security-authorization-impl</artifactId>
+            <version>0.1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.original.frame</groupId>
+            <artifactId>security-config-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.original.frame</groupId>
             <artifactId>security-core</artifactId>
         </dependency>
         <dependency>
