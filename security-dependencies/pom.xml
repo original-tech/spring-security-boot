@@ -86,6 +86,21 @@
                 <artifactId>security-config-impl</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.original.frame</groupId>
+                <artifactId>security-authorization-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.original.frame</groupId>
+                <artifactId>security-authorization-controller</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.original.frame</groupId>
+                <artifactId>security-authorization-impl</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

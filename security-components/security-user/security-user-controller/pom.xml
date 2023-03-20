@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>com.original.frame</groupId>
-            <artifactId>security-core</artifactId>
+            <artifactId>security-common</artifactId>
         </dependency>
         <dependency>
             <groupId>com.original.frame</groupId>
