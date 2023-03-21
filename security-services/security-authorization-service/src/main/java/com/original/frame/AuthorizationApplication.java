@@ -1,13 +1,15 @@
 package com.original.frame;
 
+import com.original.cloud.configuration.EnableAlibabaCloud;
+import com.original.security.configuration.EnableFrameAuthorizationServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@EnableDiscoveryClient
-@EnableFeignClients
+//@EnableDiscoveryClient
+//@EnableFeignClients
 @SpringBootApplication
+@EnableFrameAuthorizationServer
+@EnableAlibabaCloud
 //@EnableCaching
 public class AuthorizationApplication {
 

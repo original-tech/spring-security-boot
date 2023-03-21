@@ -16,6 +16,10 @@
     <dependencies>
         <dependency>
             <groupId>com.original.frame</groupId>
+            <artifactId>security-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.original.frame</groupId>
             <artifactId>security-user-controller</artifactId>
         </dependency>
         <dependency>

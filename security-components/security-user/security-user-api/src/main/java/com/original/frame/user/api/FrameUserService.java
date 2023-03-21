@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@FeignClient(name = "security-user-service", contextId = "frameuserservice")
+@FeignClient(name = "security-user-service", contextId = "frameuserservice", path = "/rest")
 public interface FrameUserService {
 
     @PostMapping(value = "/findByUsername")

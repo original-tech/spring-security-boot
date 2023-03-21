@@ -5,9 +5,11 @@ import com.original.frame.config.entity.FrameConfig;
 import com.original.frame.config.repository.FrameConfigRepository;
 import com.original.frame.config.vo.ConfigVO;
 import org.springframework.beans.BeanUtils;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/rest")
 public class FrameConfigServiceImpl implements FrameConfigService {
 
     private final FrameConfigRepository frameConfigRepository;

@@ -12,12 +12,14 @@ import com.original.frame.user.entity.FrameUser;
 import com.original.frame.user.repository.FrameUserRepository;
 import com.original.frame.user.vo.UserVO;
 import org.springframework.beans.BeanUtils;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
+@RequestMapping("/rest")
 public class FrameUserServiceImpl implements FrameUserService {
 
     private final FrameUserRepository frameUserRepository;

@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name = "security-config-service", contextId = "frameconfigservice")
+@FeignClient(name = "security-config-service", contextId = "frameconfigservice", path = "/rest")
 public interface FrameConfigService {
 
     @PostMapping("/findByConfigname")
